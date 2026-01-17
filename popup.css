@@ -1,0 +1,78 @@
+body {
+  width: 330px;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.card {
+  background: #fff;
+  margin: 12px;
+  padding: 14px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 8px;
+  color: #5a3db8;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  margin-bottom: 8px;
+}
+
+.tab {
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: #e0e7ff;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.tab.active {
+  background: #6366f1;
+  color: white;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  resize: none;
+  outline: none;
+}
+
+/* Buttons */
+.actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+button {
+  flex: 1;
+  padding: 6px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#add {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+}
+
+#delete {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
