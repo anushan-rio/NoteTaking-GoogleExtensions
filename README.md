@@ -41,5 +41,5 @@ Follow these steps to run the extension locally:
    git clone https://github.com/your-username/note-taking-chrome-extension.git
 
 
-## 📂 Project Structure
+
 
